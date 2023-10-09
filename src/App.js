@@ -1,45 +1,81 @@
 import React from 'react-dom';
-import {FaBars} from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 import './App.css'
 
 function App() {
   return (
-    <div className="App"> 
+    <div className="App">
       <header>
-      <nav className='navbar navbar-expand-md navbar-transparent navbar-light fixed-top' >
-          <div className='container'>
-            <a className='navbar-brand' href='/index.html'>
-              <img src='/imagens/spotify.svg' width={142} alt='' />
+        <nav className="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+          <div className="container">
+
+            <a href="index.html" className="navbar-brand">
+              <img src="imagens/spotify.svg" width="142" />
             </a>
 
-            <button className='navbar-toggler' type='button' data-bs-toggle="collapse" data-bs-target='#navbarSupportedContent'>
-              <FaBars color='white'/>
+            <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-principal">
+              <i className="fas fa-bars text-white"><FaBars /></i>
             </button>
 
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="/">Premium</a>
+            <div className="collapse navbar-collapse" id="nav-principal">
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                  <a href="" className="nav-link">Premium</a>
+                </li>
+                <li className="nav-item">
+                  <a href="" className="nav-link">Ajuda</a>
+                </li>
+                <li className="nav-item">
+                  <a href="" className="nav-link">Baixar</a>
                 </li>
 
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="/">Ajuda</a>
+                <li className="nav-item divisor"></li>
+
+                <li className="nav-item">
+                  <a href="" className="nav-link">Inscrever-se</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="/">Baixar</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="/">Inscrever-se</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="/">Entrar</a>
+                <li className="nav-item">
+                  <a href="" className="nav-link">Entrar</a>
                 </li>
               </ul>
             </div>
+
           </div>
         </nav>
-      </header>  
+      </header>
+
+      <section id="home" className="d-flex">
+        <div className="container align-self-center">
+          <div className="row">
+            <div className="col-md-12 capa">
+
+              <h1>Música para todos</h1>
+              <a href="" className="btn btn-lg btn-custom btn-roxo">
+                Aproveite o Spotify Free
+              </a>
+
+              <a href="" className="btn btn-lg btn-custom btn-branco">
+                Obter Spotify Premium
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id='servicos' >
+        <div className='container'>
+          <div className='row'>
+            <div col-md-6>
+              imagens
+            </div>
+            <div col-md-6>
+              conteudos
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
