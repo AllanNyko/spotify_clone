@@ -1,5 +1,6 @@
 import React from 'react-dom';
 import { FaBars } from 'react-icons/fa';
+import { FaMusic } from 'react-icons/fa';
 import './App.css'
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
             </button>
 
             <div className="collapse navbar-collapse" id="nav-principal">
-              <ul className="navbar-nav ml-auto">
+              <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
                   <a href="/" className="nav-link">Premium</a>
                 </li>
@@ -49,15 +50,33 @@ function App() {
           <div className="row">
             <div className="col-md-12 capa">
 
-              <h1>Música para todos</h1>
-              <a href="/" className="btn btn-lg btn-custom btn-roxo">
-                Aproveite o Spotify Free
-              </a>
-
-              <a href="/" className="btn btn-lg btn-custom btn-branco">
-                Obter Spotify Premium
-              </a>
-
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h1>Música para todos</h1>
+                    <a href="/" class="btn btn-lg btn-custom btn-roxo">
+                      Aproveite o Spotify Free
+                    </a>
+                    <a href="/" class="btn btn-lg btn-custom btn-branco">
+                      Obter Spotify Premium
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <h1>As melhores rádios</h1>
+                    <a href="/" class="btn btn-lg btn-custom btn-branco">
+                      < FaMusic /> Ouça agora
+                    </a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -78,7 +97,7 @@ function App() {
                   <img src="imagens/img5.jpg" className="img-fluid" alt='' />
                 </div>
                 <div className="col-md-6">
-                  <img src="imagens/img2.jpg" className="img-fluid" alt='' />
+                  <img src="imagens/img6.jpg" className="img-fluid" alt='' />
                 </div>
               </div>
               <div className="row albuns">
