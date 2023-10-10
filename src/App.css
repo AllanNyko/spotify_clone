@@ -1,5 +1,6 @@
 html, body, #home {
   height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
@@ -49,6 +50,7 @@ nav.navbar-transparente {
   -moz-border-radius: 500px;
   text-transform: uppercase;
   transition: background 0.4s, color 0.4s;
+  ;
   padding: 10px 20px;
 }
 
@@ -110,6 +112,39 @@ nav.navbar-transparente {
   padding-left: 80px;
 }
 
+footer {
+  background: #000;
+  position: relative;
+  padding: 50px 0 20px 0;
+}
+
+footer h4 {
+  color: #919496;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+  color: white;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+footer .navbar-nav a:hover {
+  color: #9bf0e1;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin: 0 5px;
+}
+
+
+
+
 /* Tipografia
 -----------------------------*/
 h1 {
@@ -137,6 +172,22 @@ h3 {
 @media (max-width: 575.98px) {
   .btn-custom {
     margin: 10px 15px;
+  }
+
+  footer #logo {
+    margin: 0 0 10px 0;
+  }
+
+  footer h4 {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .row .albuns {
+    padding: 0px;
+  }
+
+  section img {
+    margin: 0px 0px 20px 0px;
   }
 }
 

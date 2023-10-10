@@ -10,7 +10,7 @@ function App() {
           <div className="container">
 
             <a href="index.html" className="navbar-brand">
-              <img src="imagens/spotify.svg" width="142" alt=''/>
+              <img src="imagens/spotify.svg" width="142" alt='' />
             </a>
 
             <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-principal">
@@ -63,76 +63,154 @@ function App() {
         </div>
       </section>
 
-      <section id="servicos" class="caixa">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="row albuns">
-              <div class="col-md-6">
-                <img src="imagens/img1.jpg" class="img-fluid" alt=''/>
+      <section id="servicos" className="caixa">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="row albuns">
+                <div className="d-none d-lg-none d-md-block col-md-6">
+                  <img src="imagens/img1.jpg" className="img-fluid" alt='' />
+                </div>
+                <div className="d-none d-lg-none pb-4 d-md-block col-md-6">
+                  <img src="imagens/img2.jpg" className="img-fluid" alt='' />
+                </div>
+                <div className="col-md-6">
+                  <img src="imagens/img5.jpg" className="img-fluid" alt='' />
+                </div>
+                <div className="col-md-6">
+                  <img src="imagens/img2.jpg" className="img-fluid" alt='' />
+                </div>
               </div>
-              <div class="col-md-6">
-                <img src="imagens/img2.jpg" class="img-fluid" alt=''/>
+              <div className="row albuns">
+                <div className="col-md-6">
+                  <img src="imagens/img3.jpg" className="img-fluid" alt='' />
+                </div>
+                <div className="col-md-6">
+                  <img src="imagens/img4.jpg" className="img-fluid" alt='' />
+                </div>
               </div>
             </div>
-            <div class="row albuns">
-              <div class="col-md-6">
-                <img src="imagens/img3.jpg" class="img-fluid" alt=''/>
-              </div>
-              <div class="col-md-6">
-                <img src="imagens/img4.jpg" class="img-fluid" alt=''/>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            
-            <h2>O que o Spotify tem?</h2>
+            <div className="col-md-6">
 
-            <h3>Músicas</h3>
-            <p>O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um só lugar.</p>
+              <h2>O que o Spotify tem?</h2>
 
-            <h3>Playlists</h3>
-            <p>No Spotify você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas da música.</p>
+              <h3>Músicas</h3>
+              <p>O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um só lugar.</p>
 
-            <h3>Novos lançamentos</h3>
-            <p>Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
+              <h3>Playlists</h3>
+              <p>No Spotify você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas da música.</p>
 
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="recursos" class="caixa">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
+              <h3>Novos lançamentos</h3>
+              <p>Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
 
-            <h2>Fácil</h2>
-            <h3>Buscar</h3>
-            <p>Já sabe o que quer escutar? É só procurar e apertar o play.
-            </p>
-
-            <h3>Navegar</h3>
-            <p>Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.
-            </p>
-
-            <h3>Descobrir</h3>
-            <p>Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.
-            </p>
-
-          </div>
-          <div class="col-md-8">
-            <div class="row rotacionar">
-              <div class="col-md-6">
-                <img src="imagens/iphone1.png" class="img-fluid"alt=''/>
-              </div>
-              <div class="col-md-6">
-                <img src="imagens/iphone2.png" class="img-fluid" alt=''/>
-              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section id="recursos" className="caixa">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4">
+
+              <h2>Fácil</h2>
+              <h3>Buscar</h3>
+              <p>Já sabe o que quer escutar? É só procurar e apertar o play.
+              </p>
+
+              <h3>Navegar</h3>
+              <p>Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.
+              </p>
+
+              <h3>Descobrir</h3>
+              <p>Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.
+              </p>
+
+            </div>
+            <div className="col-md-8 d-none d-md-block">
+              <div className="row rotacionar">
+                <div className="col-md-6">
+                  <img src="imagens/iphone1.png" className="img-fluid" alt='' />
+                </div>
+                <div className="col-md-6">
+                  <img src="imagens/iphone2.png" className="img-fluid" alt='' />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-2'>
+              <img id='logo' src="imagens/spotify.svg" width={142} className="img-fluid" alt='' />    </div>
+            <div className='col-md-2'>
+              <h4>Company</h4>
+              <ul className='navbar-nav'>
+                <li>
+                  <a href='/'>Sobre</a>
+                </li>
+                <li>
+                  <a href='/'>Empregos</a>
+                </li>
+                <li>
+                  <a href='/'>Imprensa</a>
+                </li>
+                <li>
+                  <a href='/'>Novidades</a>
+                </li>
+              </ul>
+            </div>
+            <div className='col-md-2'>
+              <h4>Comunidades</h4>
+              <ul className='navbar-nav'>
+                <li>
+                  <a href='/'>Artistas</a>
+                </li>
+                <li>
+                  <a href='/'>Desenvolvedores</a>
+                </li>
+                <li>
+                  <a href='/'>Marcas</a>
+                </li>
+              </ul></div>
+            <div className='col-md-2'>
+              <h4>Links Úteis</h4>
+              <ul className='navbar-nav'>
+                <li>
+                  <a href='/'>Ajuda</a>
+                </li>
+                <li>
+                  <a href='/'>Presentes</a>
+                </li>
+                <li>
+                  <a href='/'>Player da web</a>
+                </li>
+              </ul>
+            </div>
+            <div className='col-md-4 '>
+              <ul className='navbar-nav flex-row justify-content-end'>
+                <li>
+                  <a href='/'>
+                    <img src="imagens/facebook.png" className="img-fluid" alt='' />
+                  </a>
+                </li>
+                <li>
+                  <a href='/'>
+                    <img src="imagens/instagram.png" className="img-fluid" alt='' />
+                  </a>
+                </li>
+                <li>
+                  <a href='/'> <img src="imagens/twitter.png" className="img-fluid" alt='' />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
 
     </div>
   );
