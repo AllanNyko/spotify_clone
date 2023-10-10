@@ -8,10 +8,10 @@ const Carousel = () => {
       <div class="carousel-inner">
         <div class="carousel-item active">
           <h1>Música para todos</h1>
-          <a href="/" class="btn btn-lg btn-custom btn-roxo">
+          <a href="/" class="btn btn-custom btn-roxo">
             Aproveite o Spotify Free
           </a>
-          <a href="/" class="btn btn-lg btn-custom btn-branco">
+          <a href="/" class="btn  btn-custom btn-branco">
             Obter Spotify Premium
           </a>
         </div>
